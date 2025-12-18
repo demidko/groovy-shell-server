@@ -119,9 +119,3 @@ What if a well-meaning developer fires up a remote shell and accidentally execut
 each GroovyShellService instance registers itself with the default MBeanServer and provides a "killAllClients" operation to kill
 any open client sockets and stop the associated client threads. Thus you can connect with jconsole or your favorite JMX frontend
 to resolve this issue if it arises.
-
-## Deploy 
-
-```shell
-mvn deploy -pl client -am -DskipTests
-```
